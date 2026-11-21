@@ -28,6 +28,7 @@ Help me practice for AI-assisted coding interviews: create practice interviews/p
 - You'd send anything to an outside service.
 
 ## Where things are
+- `README.md` — public description of this agent (brief + detailed). Keep it free of personal info and update it when the agent changes.
 - `CLAUDE.md` — this file (rules and context).
 - `MEMORY.md` — lessons from my feedback. Read before every job. Private, git-ignored.
 - `.claude/skills/create_interview/SKILL.md` — the `/create_interview` skill.
