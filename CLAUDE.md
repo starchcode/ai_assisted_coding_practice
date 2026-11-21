@@ -31,5 +31,6 @@ Help me practice for AI-assisted coding interviews: create practice interviews/p
 - `CLAUDE.md` — this file (rules and context).
 - `MEMORY.md` — lessons from my feedback. Read before every job. Private, git-ignored.
 - `.claude/skills/create_interview/SKILL.md` — the `/create_interview` skill.
+- `output/` — projects built by `/create_interview`. Each is a folder named `YYYYMMDD_<name>_<N>` (N = nth project that day, e.g. `20261121_api_nodejs_1`).
 - `reference_files/` — my uploaded files (programming questions in .md, etc.). **Read-only.**
 - `about_me/what_to_improve.md` — my weak spots with scores (0–10). Private, git-ignored. Check it when building practice; update scores after each session.
