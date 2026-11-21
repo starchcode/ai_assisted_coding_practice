@@ -34,7 +34,8 @@ description: Create an AI-assisted coding interview practice project for me. Use
 5. **Build the project inside that folder** (only after I confirmed):
    - A boilerplate in most cases; initialise it fully when it's a complete project (install deps, make sure it runs).
    - **`README.md`** with:
-     - What the project is and **how to start/run it** (exact commands).
+     - What the project is.
+     - **A "Setup & run" section with every step I need, as exact copy-paste commands**: the folder to `cd` into, required runtime/version, install dependencies (or say "none needed"), how to start any server (and in which terminal), how to run the app/demo, how to run all tests and one question's tests, and any env vars. Say what is optional vs required. Verify these commands actually work before finishing.
      - **5 questions that build on each other**, each a bit harder or more advanced than the last. I solve #1, then #2 builds on it, and so on. For bug-fix projects, question 1 may be "find and fix this bug".
      - Where the tests are and how to run them.
    - **Tests, depending on the problem:**
