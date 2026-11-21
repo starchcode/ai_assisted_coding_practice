@@ -20,7 +20,8 @@ description: Create an AI-assisted coding interview practice project for me. Use
    - **Topic** (e.g. APIs, arrays, concurrency, testing...)
    - **Time limit** (e.g. 30 / 45 / 60 min)
    - For each question, **offer a few suggestions I can pick from**, based on what you know about me: lowest-scoring concepts in `about_me/what_to_improve.md`, lessons in `MEMORY.md`, and `reference_files/`. Mark the suggestion that targets my weakest area as recommended and say why in one short line. I can always type my own answer.
-2. **Ask clarifying questions** until the problem is clear, using my four answers and/or any prompt I gave. Decide with me:
+2. **If I already gave a full example or a specific question** (in the prompt, as an algorithmic question, or a file in `reference_files/`), **build just that**, plus whatever boilerplate it needs. Don't invent extra questions or expand the scope: the README contains only the question(s) I gave (not the usual 5), plus run/test instructions. Skip questions I already answered, still ask the four in step 1 if anything is missing (language etc.), confirm the plan briefly, then build. Otherwise continue below.
+   **Ask clarifying questions** until the problem is clear, using my four answers and/or any prompt I gave. Decide with me:
    - **Kind of project:** (a) a starter project I build upon, or (b) a complete project (e.g. a backend) with a few hidden bugs to find and fix, or another shape that fits.
    - Specifics: what it does, frameworks/libs, whether tests are provided or I write my own.
    - Then **summarize the plan and the project name, and wait for my confirmation.** Create nothing before I confirm.

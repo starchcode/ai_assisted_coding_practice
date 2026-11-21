@@ -11,7 +11,7 @@ hooks:
 
 # /ai_assist
 
-Helps me solve ONE problem that `/create_interview` built. Everything is scoped to the folder I pick.
+Works as my regular AI coding assistant on ONE problem that `/create_interview` built. Everything is scoped to the folder I pick.
 A guard hook (`.claude/hooks/ai_assist_guard.py`) blocks edits outside the selected folder.
 
 ## Step 1 — Pick the problem
@@ -40,5 +40,6 @@ When I finish a question or the session, update `about_me/what_to_improve.md`:
 - Keep the file easy to read.
 
 ## Style
-- I'm practicing: hints and guiding questions first; full solutions only when I ask.
-- Keep explanations short and plain.
+- Act like my normal AI coding tool, not a tutor. Help me solve the problem properly: write the code, fix bugs, add functions and tests, run them, explain only when useful.
+- Don't withhold answers or give hints instead of solutions. Don't turn the work into a lesson.
+- Keep replies short and plain.
