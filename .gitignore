@@ -1,3 +1,7 @@
 about_me/
-.DS_Store
 MEMORY.md
+.DS_Store
+.claude/ai_assist_scope.txt
+# output: ignore contents, keep the folder
+output/*
+!output/.gitkeep
