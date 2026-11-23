@@ -5,3 +5,4 @@ MEMORY.md
 # output: ignore contents, keep the folder
 output/*
 !output/.gitkeep
+.claude/settings.json
